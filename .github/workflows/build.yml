@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unpack project
-        run: unzip -q nyxvault-client-source-2.zip
+        run: unzip -q nyxvault-client-source-3.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
